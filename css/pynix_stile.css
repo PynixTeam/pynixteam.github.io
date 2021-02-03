@@ -102,10 +102,12 @@ a:hover
     font-size: 130%;
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.1);
-    bottom: 0;
-    left: 0;
-    right: 0;
+    /*bottom: 0px;
+    left: 0px;
+    right: 0;*/
     height: 160px;
+    position: static;
+    width: 100%;
 }
 
 h3
@@ -331,8 +333,56 @@ h3
     color: rgb(251,0,197);
 }
 
+.tessera
+{
+    display: flex;
+    flex-direction: row;
+}
 
+.instabug
+{
+    padding-left: 35px;
+    padding-top: 3px;
+}
 
+td
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
+tr
+{
+    display: flex;
+}
 
+.michimg,.hanimg
+{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+.popimg
+{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+
+.manimg
+{
+    border-radius: 100%;
+    width: 65px;
+    height: 65px;
+}
+
+.hanimg
+{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+}
 
